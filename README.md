@@ -1,16 +1,8 @@
-# vaccino
+# Vaccino app
 
-A new Flutter project.
+Semplice app creata in flutter che traccia il numero di vaccini in Italia tramite web scraping dal sito ufficiale:
+- https://wabi-europe-north-b-api.analysis.windows.net/public/reports/querydata?synchronous=true
 
-## Getting Started
+## Come funziona?
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+L'app richiede le informazioni al sito web con una richiesta Http.POST(), quando l'app riceve i dati li carica.
